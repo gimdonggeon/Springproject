@@ -1,3 +1,4 @@
+
 HELP.md
 .gradle
 build/
@@ -6,6 +7,14 @@ build/
 !**/src/test/**/build/
 
 ### STS ###
+
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse ###
+
 .apt_generated
 .classpath
 .factorypath
@@ -17,6 +26,7 @@ bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
 
+
 ### IntelliJ IDEA ###
 .idea
 *.iws
@@ -25,6 +35,8 @@ bin/
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+
+
 
 ### NetBeans ###
 /nbproject/private/
@@ -35,3 +47,8 @@ out/
 
 ### VS Code ###
 .vscode/
+
+
+### Mac OS ###
+.DS_Store
+
